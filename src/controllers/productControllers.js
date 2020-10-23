@@ -181,6 +181,7 @@ module.exports={
             return res.status(200).send(results)
         })
     },
+    //nomor 3
     getbestproduct:(req,res)=>{
         let sql=`select namatoko,nama 
         from products p
